@@ -1,0 +1,28 @@
+.menu__item {
+    padding-left: 0.5rem;    
+}
+
+.menu__item a {
+    font-family: Raleway, sans-serif;    
+    color: #464646;
+    font-size: 1rem;
+    text-decoration: none;
+    
+       
+   
+}
+
+.menu__item li:nth-last-child(1) {
+    
+    font-weight: 700;
+    
+}
+
+@media screen and (min-width:481) and (max-width: 768) {
+    .menu__item li:nth-last-child(1) {
+    
+        font-weight: 700;
+        
+    }
+
+}

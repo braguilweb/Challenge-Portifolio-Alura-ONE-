@@ -1,0 +1,33 @@
+.pessoa__titulo {
+    color: #464646;
+    font-family: Raleway, sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 480px) { 
+    /* Estilos para tela de celular */
+    .pessoa__titulo {
+      font-size: 22px;
+      padding-bottom: 20px;
+      padding-top: 20px;    
+    }
+  }
+  
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Estilos para tela de tablet */
+    .pessoa__titulo {
+        font-size: 22px;
+        font-weight: 700;
+        padding-bottom: 10px;
+      
+    }
+}
+  
+  @media screen and (min-width: 769px) {
+    /* Estilos para tela de desktop */
+    .pessoa__titulo {
+    
+    }
+  }

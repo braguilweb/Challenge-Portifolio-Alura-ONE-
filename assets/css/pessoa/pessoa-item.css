@@ -1,0 +1,29 @@
+.pessoa__item {
+    color: #464646;
+    display: flex;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 30px;
+   
+    
+
+}
+
+@media screen and (max-width: 480px) {
+    .pessoa__item img {
+        width: 16px;
+        height: 16px;
+        padding-top: 5px;
+        padding-right: 10px;
+    }
+
+    .pessoa__item {
+        
+        padding: 0 0 0 0;
+        
+
+    }
+    
+}
+
