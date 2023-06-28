@@ -15,7 +15,7 @@
     }
   }
   
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 850px) {
     /* Estilos para tela de tablet */
     .pessoa__titulo {
         font-size: 22px;
@@ -24,10 +24,3 @@
       
     }
 }
-  
-  @media screen and (min-width: 769px) {
-    /* Estilos para tela de desktop */
-    .pessoa__titulo {
-    
-    }
-  }

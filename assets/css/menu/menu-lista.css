@@ -8,8 +8,11 @@
 
 }
 
+.menu__lista li:nth-last-child(1) {
+    font-weight: 700;
+}
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 480px) {  
     /* Estilos para tela de celular */
     .menu__lista {      
         padding-right: 20px;
@@ -31,7 +34,7 @@
     }
   }
   
-  @media screen and (min-width: 481px) and (max-width: 768px) {
+  @media screen and (min-width: 481px) and (max-width: 850px) {
     /* Estilos para tela de tablet */
     .menu__lista li {      
         font-weight: bolder;
@@ -43,7 +46,7 @@
     }
   }
   
-  @media screen and (min-width: 768) {
+  @media screen and (min-width: 850px) {
     /* Estilos para tela de desktop */
     .menu__lista {
         padding-right: 100px;  

@@ -1,0 +1,36 @@
+.sobreMim {
+    background-color: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    
+}
+
+.sobreMim div {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sobreMim img {
+    width: 140px;
+    height: 52px;
+}
+/* Estilos para tela de tablet*/
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .sobreMim div {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    
+}
+
+/* Estilos para tela de celular */
+@media screen and (max-width: 480px) {
+    .sobreMim div {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+}

@@ -1,0 +1,23 @@
+.sobreMim__titulo {
+    color: #464646;
+    font-family: Raleway, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+/* Estilos para tela de tablet */
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .sobreMim__titulo {
+        font-size: 22px;        
+    }
+   
+}
+
+/* Estilos para tela de celular */
+@media screen and (max-width: 480px) {
+    .sobreMim__titulo {
+        font-size: 22px;
+    }
+    
+}

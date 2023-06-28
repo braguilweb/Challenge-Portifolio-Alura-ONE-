@@ -3,7 +3,7 @@
    border-radius: 100px;    
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 850px) {
     /* Estilos para tela de tablet */
     .pessoa__imagem {
         max-width: 146px;
