@@ -1,0 +1,71 @@
+.formacaoAcademica__cards {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.formacaoAcademica__cards li {
+    display: flex;
+    flex-direction: column;
+}
+
+.formacaoAcademica__cards li div {   
+    background-color: #FFFFFF;  
+    display: flex;
+    justify-content: center;  
+    padding:  50px 50px 50px 50px;    
+}
+
+.formacaoAcademica__cards h3 {
+    font-family: Raleway, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #464646;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.formacaoAcademica__cards p {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+    padding-bottom: 10px;
+}
+
+/* Estilos para telas de tablet */
+
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .formacaoAcademica__cards {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .formacaoAcademica__cards li div {   
+        background-color: #FFFFFF;  
+        display: flex;
+        justify-content: center;  
+        padding:  10px 1px 10px 1px;    
+    }
+
+    .formacaoAcademica__cards h3 {
+        font-size: 16px;
+    }
+
+    .formacaoAcademica__cards p {
+        font-size: 14px;
+    }    
+}
+
+/* Estilo para telas de celulares */
+
+@media screen and (max-width:480px) {
+    .formacaoAcademica__cards {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}

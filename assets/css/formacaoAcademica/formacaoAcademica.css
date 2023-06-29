@@ -1,0 +1,14 @@
+.formacaoAcademica {
+    display: flex;
+    flex-direction: column;
+    background-color: #EAF2FD;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+/* Estilo para telas de celulares */
+
+@media screen and (max-width:480) {
+    
+}
