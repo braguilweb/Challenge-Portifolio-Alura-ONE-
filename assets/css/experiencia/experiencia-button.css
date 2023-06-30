@@ -1,0 +1,62 @@
+.experiencia__button  {
+    display: flex;
+    justify-content: space-between;
+}
+
+#button-1 button {
+   border-color: #2A7AE4;
+   border-style: solid;
+   color: #2A7AE4;
+   font-family: Raleway, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   height: 50px;
+   padding-right: 10px;
+   width: 110px;
+}
+#button-1 button:hover {
+    background-color: #D4E4FA;
+    cursor: pointer;
+
+}
+
+#button-2 button {
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    border: none;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 50px;
+    width: 110px;
+    
+}
+#button-2 button:hover {
+    background-color: #5595E9;
+    cursor: pointer;
+
+}
+
+/* Estilos para telas de tablet */
+
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .experiencia__button {
+        justify-content: flex-start;
+    }
+    .experiencia__button div {
+        padding-right: 20px;
+    }
+}
+
+/* Estilos para telas de celulares */
+
+@media screen and (max-width: 480px) {
+    .experiencia__button {
+        justify-content: flex-start;
+    }
+    
+    .experiencia__button div {
+        padding-right: 20px;
+    }
+}
+

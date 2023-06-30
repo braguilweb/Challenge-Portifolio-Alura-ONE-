@@ -1,0 +1,28 @@
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+
+}
+
+.experiencia h2 {
+    text-align: center;
+}
+/* Estilos para telas de tablets */
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .experiencia {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .experiencia {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
