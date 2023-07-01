@@ -1,8 +1,6 @@
-# Challenge-ONE-Alura-Decodificador-de-Texto
-   
+# Challenge-ONE-Alura-Portifólio
 
-Construção de um decodificador de texto com Javascript  
-
+No projeto usei o programa Visual Studio Code, HTML 5, CSS e JavaScript
 ## Objetivos: 
 
 Construção de um portfólio responsivo para mostrar meus projetos para possíveis recrutadores. 
