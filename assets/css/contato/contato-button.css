@@ -1,0 +1,35 @@
+.contato__button  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+button.contato__button{
+    
+}
+
+button.contato__button {
+    display: flex;
+    justify-content: center;
+    
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    border: none;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+#button-contato:hover {
+    background-color: #5595E9;
+    cursor: pointer;
+
+
+}

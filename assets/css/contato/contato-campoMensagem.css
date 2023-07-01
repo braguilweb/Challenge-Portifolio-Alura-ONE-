@@ -1,0 +1,26 @@
+div.contato__campoMensagem {
+    background-color: #FFFFFF;
+    border-color: #464646;
+    border-style: solid;
+    color: #464646;
+    display: flex;
+    font-family: Raleway,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 100px;
+    justify-content: end;
+    padding-top: 5px;
+}
+.contato__campoMensagem label{
+    color: #A2A2A2;
+    font-family: Raleway,sans-serif;
+    font-size: 10px;
+}
+
+#mensagem {
+    border-color: #c8c8c8;
+    border-left: #A2A2A2;
+    border-right: #A2A2A2;
+    border-top: #A2A2A2;
+    height: 100px;    
+}

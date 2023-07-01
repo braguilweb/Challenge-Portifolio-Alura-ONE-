@@ -71,14 +71,14 @@
     }
 
     .experiencia__container img {
-        width: 280px;
         padding: 0 0 0 0;       
+        width: 280px;
     }
 
     #div-imagem {
+        align-items: center;
         display:flex;
         justify-content: center;
-        align-items: center;
 
     }
 }

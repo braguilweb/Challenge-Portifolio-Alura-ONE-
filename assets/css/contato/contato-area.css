@@ -1,0 +1,22 @@
+.contato__area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+.contato__area div {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    justify-content: space-between;
+    padding-top: 20px;    
+}
+
+fieldset.contato__area {
+    
+    justify-content: space-between;
+}
+
+.contato__area legend {
+    padding-bottom: 20px;
+}

@@ -1,0 +1,57 @@
+.contato__container {
+    display: flex;
+    justify-content: left;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;  
+}
+
+.contato__container img {
+    padding-right: 20px;
+}
+
+.contato__container form {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+div.contato__container {
+    justify-content: space-between;
+}
+
+/* Estilos para telas de tablet */
+
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .contato__container img {
+        display: none;
+    }
+
+    div.contato__container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contato__container form {
+        display: block;
+        width: 100vh;
+    }  
+}
+
+/* Estilos para telas de celulares */
+
+@media screen and (max-width: 480px) {
+    .contato__container img {
+        display: none;
+    }
+
+    div.contato__container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contato__container form {
+        display: block;
+        width: 100vh;
+    }
+}

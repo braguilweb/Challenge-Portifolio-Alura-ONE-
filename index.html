@@ -33,6 +33,16 @@
     <link rel="stylesheet" href="./assets/css/experiencia/experiencia-titulo.css">
     <link rel="stylesheet" href="./assets/css/experiencia/experiencia-container.css">
     <link rel="stylesheet" href="./assets/css/experiencia/experiencia-button.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-area.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-button.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-campoAssunto.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-campoEmail.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-campoMensagem.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-campoNome.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-container.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-texto.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-titulo.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato.css">
 
     
 </head>
@@ -60,11 +70,9 @@
                 <li class="pessoa__item"><a class="pessoa__link" href="#">Linkedin</a><img src="./assets/images/arrow_back_black_24dp 1.png" alt=""/></li>
                 <li class="pessoa__item"><a class="pessoa__link" href="#">Instagram</a><img src="./assets/images/arrow_back_black_24dp 1.png" alt=""/></li>
                 <li class="pessoa__item"><a class="pessoa__link" href="#">Currículo</a><img src="./assets/images/arrow_back_black_24dp 1.png" alt=""/></li>
-            </ul> 
-                     
+            </ul>                     
         </div>
-        <img class="pessoa__imagem" src="./assets/images/guilherme.jpg" alt="Foto do desenvolvedor web Guilherme Braga">  
-        
+        <img class="pessoa__imagem" src="./assets/images/guilherme.jpg" alt="Foto do desenvolvedor web Guilherme Braga">          
     </section>
     <section class="sobreMim">
         <div>
@@ -78,8 +86,7 @@
     </section>
     <section class="skills-hobbies">
         <h2 class="skill__titulo">Skills</h2>
-        <div class="skills">
-            
+        <div class="skills">            
             <ul>
                 <li>
                     <img src="./assets/images/html_img.png" alt=""/>
@@ -173,6 +180,35 @@
             </ul>
         </div>
     </section>  
+    <section class="contato">
+        <div class="contato__container">
+            <img src="./assets/images/contato_img.png" alt="Imagem de telefone com fio"/>
+            <form action="">
+                <fieldset class="contato__area">
+                    <legend>
+                        <h2 class="contato__titulo">Contato</h2>
+                        <p class="contato__texto">Quer entrar em contato comigo?</p>
+                        <p class="contato__texto">Preencha o formulário abaixo e entrarei em contato o mais rápido possível.</p>
+                    </legend>
+                    <div class="contato__campoNome">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                    </div><br>
+                    <div class="contato__campoEmail">
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email" placeholder="Seu melhor email">
+                    </div><br>
+                    <div class="contato__campoAssunto">
+                        <input type="text" name="assunto" id="assunto" placeholder="Assunto">
+                    </div><br>
+                    <div class="contato__campoMensagem">
+                        <textarea type="text" name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
+                    </div><br>
+                    <button class="contato__button"  id="button-contato" type="submit" name="submit">Enviar Mensagem</button>
+                </fieldset>
+            </form>
+        </div>       
+    </section>
 </body>
 </html>
 
