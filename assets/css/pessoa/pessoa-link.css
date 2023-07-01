@@ -1,9 +1,14 @@
 .pessoa__link {
     text-decoration: none;
     color: #464646;
-    padding-top: 5px;    
+    padding-top: 5px; 
+}
+
+.pessoa__link:hover {
+    background-color: #D4E4FA
     
 }
+
 /* Estilo para tela de tablet */
 @media screen and (min-width: 481px) and (max-width: 850px) {
     .pessoa__link {

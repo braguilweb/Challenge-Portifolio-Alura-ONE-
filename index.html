@@ -54,12 +54,12 @@
         <h1 class="menu__titulo">Guilherme Braga</h1>
         </div>
         <ul class="menu__lista">
-            <li class="menu__item"><a href="#">Sobre mim</a></li>
-            <li class="menu__item"><a href="#">Skils</a></li>
-            <li class="menu__item"><a href="#">Hobbies</a></li>
-            <li class="menu__item"><a href="#">Formação</a></li>
-            <li class="menu__item"><a href="#">Projetos</a></li>
-            <li class="menu__item"><a href="#">braguil@gmail.com</a></li>
+            <li class="menu__item"><a href="#sobre-mim">Sobre mim</a></li>
+            <li class="menu__item"><a href="#skills">Skils</a></li>
+            <li class="menu__item"><a href="#hobbies">Hobbies</a></li>
+            <li class="menu__item"><a href="#formacao-academica">Formação</a></li>
+            <li class="menu__item"><a href="#projetos">Projetos</a></li>
+            <li class="menu__item"><a href="#contato">braguil@gmail.com</a></li>
         </ul>
     </header>
     <section class="pessoa">
@@ -67,15 +67,15 @@
             <h2 class="pessoa__titulo">Olá, meu nome é Guilherme Braga e construo páginas web</h2>
             <p class="pessoa__texto">Brasileiro com 41 anos de idade, sou estudante de desenvolvimento de sistemas mobile, atualmente participo do projeto Oracle ONE na Alura.</p>
             <ul class="pessoa__lista">
-                <li class="pessoa__item"><a class="pessoa__link" href="#">Github</a><img src="./assets/images/arrow_back_black_24dp 1.png" alt=""/></li>
-                <li class="pessoa__item"><a class="pessoa__link" href="#">Linkedin</a><img src="./assets/images/arrow_back_black_24dp 1.png" alt=""/></li>
-                <li class="pessoa__item"><a class="pessoa__link" href="#">Instagram</a><img src="./assets/images/arrow_back_black_24dp 1.png" alt=""/></li>
+                <li class="pessoa__item"><a class="pessoa__link" href="https://github.com/braguilweb">Github</a><img src="./assets/images/arrow_back_black_24dp 1.png" alt=""/></li>
+                <li class="pessoa__item"><a class="pessoa__link" href="https://www.linkedin.com/in/guilherme-de-almeida-braga/">Linkedin</a><img src="./assets/images/arrow_back_black_24dp 1.png" alt=""/></li>
+                <li class="pessoa__item"><a class="pessoa__link" href="https://www.instagram.com/gbraguil/">Instagram</a><img src="./assets/images/arrow_back_black_24dp 1.png" alt=""/></li>
                 <li class="pessoa__item"><a class="pessoa__link" href="#">Currículo</a><img src="./assets/images/arrow_back_black_24dp 1.png" alt=""/></li>
             </ul>                     
         </div>
         <img class="pessoa__imagem" src="./assets/images/guilherme.jpg" alt="Foto do desenvolvedor web Guilherme Braga">          
     </section>
-    <section class="sobreMim">
+    <section id="sobre-mim" class="sobreMim">
         <div>
         <h2 class="sobreMim__titulo">Sobre mim</h2>
         <p class="sobreMim__texto">
@@ -85,7 +85,7 @@
         <img src="./assets/images/assinatura.png" alt="Assinatura de Guilherme Braga">
         </div>
     </section>
-    <section class="skills-hobbies">
+    <section id="skills" class="skills-hobbies">
         <h2 class="skill__titulo">Skills</h2>
         <div class="skills">            
             <ul>
@@ -115,7 +115,7 @@
                 </li>
             </ul>
         </div>
-        <div class="hobbies">
+        <div id="hobbies" class="hobbies">
             <h2 class="hobbies__titulo">Hobbies</h2>
             <ul>
                 <li>
@@ -145,7 +145,7 @@
             </ul>
         </div>
     </section> 
-    <section class="formacaoAcademica">
+    <section id="formacao-academica" class="formacaoAcademica">
         <h2 class="formacaoAcademica__titulo">Formação Acadêmica</h2>
         <ul class="formacaoAcademica__cards">
             <li>
@@ -165,23 +165,23 @@
             </li>
         </ul>
     </section> 
-    <section class="experiencia">
+    <section id="projetos" class="experiencia">
         <h2 class="experiencia__titulo">Experiência Profissional</h2>
         <div class="experiencia__container">
             <div id="div-imagem" ><img src="./assets/images/projeto_decodificador.png" alt="Imagem de print do Decodificador de Texto"/></div>
             <ul>
                 <li>
                     <h3>Decodificador de Texto</h3>
-                    <p>Challenge Alura Codificador</p>
+                    <p>HTML5 - CSS - JavaScript</p>
                     <div class="experiencia__button">
-                        <div id="button-1"><button href="#">Repositório</button></div>
-                        <div id="button-2"><button href="#">Ver demo</button></div>
+                        <div id="button-1"><button onclick="redirecionarRepositorio()">Repositório</button></div>
+                        <div id="button-2"><button onclick="redirecionarDemo()">Ver demo</button></div>
                     </div>
                 </li>
             </ul>
         </div>
     </section>  
-    <section class="contato">
+    <section id="contato" class="contato">
         <div class="contato__container">
             <img src="./assets/images/contato_img.png" alt="Imagem de telefone com fio"/>
             <form action="">
@@ -193,20 +193,22 @@
                     </legend>
                     <div class="contato__campoNome">
                         <label for="nome">Nome:</label>
-                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
                     </div><br>
                     <div class="contato__campoEmail">
                         <label for="email">Email:</label>
-                        <input type="text" name="email" id="email" placeholder="Seu melhor email">
+                        <input type="email" name="email" id="email" placeholder="Seu melhor email" required>
                     </div><br>
                     <div class="contato__campoAssunto">
-                        <input type="text" name="assunto" id="assunto" placeholder="Assunto">
+                        <input type="text" name="assunto" id="assunto" placeholder="Assunto" required>
                     </div><br>
                     <div class="contato__campoMensagem">
-                        <textarea type="text" name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
+                        <textarea type="text" name="mensagem" id="mensagem" placeholder="Mensagem" required></textarea>
                     </div><br>
                     <button class="contato__button"  id="button-contato" type="submit" name="submit">Enviar Mensagem</button>
+                    
                 </fieldset>
+                
             </form>
         </div>       
     </section>
@@ -214,6 +216,8 @@
         <p>Desenvolvido por Guilherme Braga</p>
         <p>2023</p>
     </footer>
+    <script src="./assets/javascript/experiencia-button.js"></script>
 </body>
 </html>
+
 
